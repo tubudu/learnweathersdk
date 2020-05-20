@@ -1,0 +1,21 @@
+{
+    "name": "tubudu\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tubudu",
+            "email": "loveyou4227@sina.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "phpunit/phpunit": "^9.1",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tubudu\\Weather\\": "./src/"
+        }
+    }
+}
